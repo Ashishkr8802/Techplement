@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./courses/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">LearnHub</div>
+            <!-- Search icon and input -->
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Search courses...">
+                <button class="search-icon" aria-label="Search">🔍</button>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul> 
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-msg">
+            <h1>Learn Anything, Anytime, Anywhere</h1>
+            <p>Join our platform and explore hundreds of online courses.</p>
+        </div>
+        
+    </section>
+
+    <!-- Featured Courses -->
+    <section class="featured-courses">
+        <h2 class="PCourse">Popular Courses</h2>
+        <div class="shop-section">
+            <div class="box">
+                <div class="box-content">
+                    <h2>Web Development</h2>
+                    <div class="box-img" style="background-image: url('courses/course1.png');"></div>
+                    <button class="buy-btn">Buy</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>App development</h2>
+                    <div class="box-img" style="background-image: url('courses/App_development.jpeg');"></div>
+                    <button class="buy-btn">Buy</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Data science</h2>
+                    <div class="box-img" style="background-image: url('courses/Data_science.jpg');"></div>
+                    <button class="buy-btn">Buy</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Artificial intelligence</h2>
+                    <div class="box-img" style="background-image: url('courses/Artificial_intelligence.jpeg');"></div>
+                    <button class="buy-btn">Buy</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-content">
+                    <h2>Python</h2>
+                    <div class="box-img" style="background-image: url('courses/python.png');"></div>
+                    <button class="buy-btn">Buy</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Blockchain</h2>
+                    <div class="box-img" style="background-image: url('courses/Blockchain.png');"></div>
+                    <button class="buy-btn">Buy</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>CyberSecurity</h2>
+                    <div class="box-img" style="background-image: url('courses/CyberSecurity.avif');"></div>
+                    <button class="buy-btn">Buy</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Machine Learning</h2>
+                    <div class="box-img" style="background-image: url('courses/Machine\ Learning.jpg');"></div>
+                    <button class="buy-btn">Buy</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Popup Structure -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <p id="modal-message"></p>
+            <button id="close-btn" class="close-btn">Close</button>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 LearnHub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
